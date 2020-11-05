@@ -1,0 +1,6 @@
+use_frameworks!
+target 'WAlertViewController_Tests' do
+  pod 'WAlertViewController', :path => '../'
+  
+  
+end
