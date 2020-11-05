@@ -78,7 +78,7 @@ enum WAlertType {
     case withdrawalFailure
 }
 
-struct WAlert {
+@available(iOS 9.0,*) struct WAlert {
     var actions: [WAlertAction:WAlertActionBlock?]
     var icon: WAlertIcon
     var message: String?
@@ -87,8 +87,9 @@ struct WAlert {
 }
 
 fileprivate let WAlertViewAnimationDuration = TimeInterval(UINavigationControllerHideShowBarDuration)
-typealias WAlertActionBlock = (_ wAlertView: WAlertViewController ) -> Void
+@available(iOS 9.0,*) typealias WAlertActionBlock = (_ wAlertView: WAlertViewController ) -> Void
 
+@available(iOS 9.0, *)
 class WAlertViewController: UIViewController, UIGestureRecognizerDelegate, UITextFieldDelegate {
     var wAlert: WAlert!
     
