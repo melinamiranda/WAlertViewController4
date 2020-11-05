@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D0DE68B2A588745581AA6BE111B1DA2 /* Pods-WAlertViewController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C81598C4FCAC2C2C732667379D7A299 /* Pods-WAlertViewController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E2CCC54EA247A862B09DF55E385DE0B /* WAlertViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC8FE0BAA68BF0EFCB672453518A953C /* WAlertViewController-dummy.m */; };
+		D6B0EF8DE7D121FC178D88B2618B2F34 /* Pods-WAlertViewController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 28227411EA24B736881B4B0C5E5905A9 /* Pods-WAlertViewController_Tests-dummy.m */; };
+		F5FF385FD4F81296620821BBCE021CDF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		FAFC381AED160D9B2BF360578ABDFD51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		FE4CB499677E80D9EE4DE9031C31FD5C /* WAlertViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B01A3DA50801D3B8E4EF43DE989F400 /* WAlertViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF679BDC255467AF00354FF4 /* WAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF679BDB255467AF00354FF4 /* WAlertViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4412BDC33EA4C5C389D43C184A449E7D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58EBA53D3FE46D75F68D5A048CECEB8F;
+			remoteInfo = WAlertViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		067F059D9ED27DF6DD485340B87B1295 /* Pods-WAlertViewController_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WAlertViewController_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		10A2DE4150013032B11ED9582E10B3C9 /* WAlertViewController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WAlertViewController-Info.plist"; sourceTree = "<group>"; };
+		1C81598C4FCAC2C2C732667379D7A299 /* Pods-WAlertViewController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WAlertViewController_Tests-umbrella.h"; sourceTree = "<group>"; };
+		28227411EA24B736881B4B0C5E5905A9 /* Pods-WAlertViewController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WAlertViewController_Tests-dummy.m"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3B01A3DA50801D3B8E4EF43DE989F400 /* WAlertViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WAlertViewController-umbrella.h"; sourceTree = "<group>"; };
+		4B914243BACE5310E1C3F74C421013E8 /* Pods-WAlertViewController_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WAlertViewController_Tests-Info.plist"; sourceTree = "<group>"; };
+		4BFC56185562939AA6321CE09F5FB40C /* WAlertViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WAlertViewController.debug.xcconfig; sourceTree = "<group>"; };
+		6CC7986B739C64E6427B5FE6FE183D96 /* Pods-WAlertViewController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WAlertViewController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		93EAF5C63DAA1C820CBB3461972127A4 /* WAlertViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WAlertViewController-prefix.pch"; sourceTree = "<group>"; };
+		9A097D9F6E7F6527CC0BC62758257428 /* Pods-WAlertViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WAlertViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A151E269925BF0AA0D3350B3DC0F6C81 /* WAlertViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WAlertViewController.release.xcconfig; sourceTree = "<group>"; };
+		A5689C940388B41E6BA9C266158C5504 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		A6EF2A07657F2025061E8AB3AD1D6D76 /* WAlertViewController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = WAlertViewController.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ABF38EDD98A97AADB6A689A2D4A5B605 /* Pods-WAlertViewController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WAlertViewController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CC8FE0BAA68BF0EFCB672453518A953C /* WAlertViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WAlertViewController-dummy.m"; sourceTree = "<group>"; };
+		D9C0BBC181D1207B70844FA0CA09D70B /* Pods-WAlertViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WAlertViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		DB02E73D741990681AEC157BFE91CB20 /* WAlertViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WAlertViewController.modulemap; sourceTree = "<group>"; };
+		E38EC9128DBF2DE1531590BD6E7952ED /* Pods_WAlertViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WAlertViewController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF8A56D578939F93DBE97856F46252E6 /* Pods-WAlertViewController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WAlertViewController_Tests.modulemap"; sourceTree = "<group>"; };
+		F8BE4A9CE648133404B02F77820CFE50 /* WAlertViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WAlertViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF679BDB255467AF00354FF4 /* WAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WAlertViewController.swift; sourceTree = "<group>"; };
+		FFF1D9955A200DB2A81BE6FF9C3AB778 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33624CA931157D0D24E1331BEFD9A8E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAFC381AED160D9B2BF360578ABDFD51 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B11E29E89C859992248D21198F185D38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5FF385FD4F81296620821BBCE021CDF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		619323822C46FEBA2DB57CDAD4BCACFB /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A5689C940388B41E6BA9C266158C5504 /* LICENSE */,
+				FFF1D9955A200DB2A81BE6FF9C3AB778 /* README.md */,
+				A6EF2A07657F2025061E8AB3AD1D6D76 /* WAlertViewController.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		8F6A748D633A67C9108E4C2362F8FC9F /* WAlertViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FF679BDA2554678900354FF4 /* Classes */,
+				619323822C46FEBA2DB57CDAD4BCACFB /* Pod */,
+				990A1BADD4191D42821634F635850974 /* Support Files */,
+			);
+			name = WAlertViewController;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		990A1BADD4191D42821634F635850974 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB02E73D741990681AEC157BFE91CB20 /* WAlertViewController.modulemap */,
+				CC8FE0BAA68BF0EFCB672453518A953C /* WAlertViewController-dummy.m */,
+				10A2DE4150013032B11ED9582E10B3C9 /* WAlertViewController-Info.plist */,
+				93EAF5C63DAA1C820CBB3461972127A4 /* WAlertViewController-prefix.pch */,
+				3B01A3DA50801D3B8E4EF43DE989F400 /* WAlertViewController-umbrella.h */,
+				4BFC56185562939AA6321CE09F5FB40C /* WAlertViewController.debug.xcconfig */,
+				A151E269925BF0AA0D3350B3DC0F6C81 /* WAlertViewController.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WAlertViewController";
+			sourceTree = "<group>";
+		};
+		9BE871795649759C4194870D2114DAD7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8F103809D394243B22044EEE75EF2AB /* Pods-WAlertViewController_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		AA4EBE88AFFD2AEFC4BC5E965D3EA920 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F6A748D633A67C9108E4C2362F8FC9F /* WAlertViewController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				AA4EBE88AFFD2AEFC4BC5E965D3EA920 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				DEFFD9F2B8862F48802BD22C661C3E49 /* Products */,
+				9BE871795649759C4194870D2114DAD7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8F103809D394243B22044EEE75EF2AB /* Pods-WAlertViewController_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EF8A56D578939F93DBE97856F46252E6 /* Pods-WAlertViewController_Tests.modulemap */,
+				ABF38EDD98A97AADB6A689A2D4A5B605 /* Pods-WAlertViewController_Tests-acknowledgements.markdown */,
+				6CC7986B739C64E6427B5FE6FE183D96 /* Pods-WAlertViewController_Tests-acknowledgements.plist */,
+				28227411EA24B736881B4B0C5E5905A9 /* Pods-WAlertViewController_Tests-dummy.m */,
+				067F059D9ED27DF6DD485340B87B1295 /* Pods-WAlertViewController_Tests-frameworks.sh */,
+				4B914243BACE5310E1C3F74C421013E8 /* Pods-WAlertViewController_Tests-Info.plist */,
+				1C81598C4FCAC2C2C732667379D7A299 /* Pods-WAlertViewController_Tests-umbrella.h */,
+				D9C0BBC181D1207B70844FA0CA09D70B /* Pods-WAlertViewController_Tests.debug.xcconfig */,
+				9A097D9F6E7F6527CC0BC62758257428 /* Pods-WAlertViewController_Tests.release.xcconfig */,
+			);
+			name = "Pods-WAlertViewController_Tests";
+			path = "Target Support Files/Pods-WAlertViewController_Tests";
+			sourceTree = "<group>";
+		};
+		DEFFD9F2B8862F48802BD22C661C3E49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E38EC9128DBF2DE1531590BD6E7952ED /* Pods_WAlertViewController_Tests.framework */,
+				F8BE4A9CE648133404B02F77820CFE50 /* WAlertViewController.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF679BDA2554678900354FF4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FF679BDB255467AF00354FF4 /* WAlertViewController.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		92E448937D2F29679CE680CE184A8F03 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE4CB499677E80D9EE4DE9031C31FD5C /* WAlertViewController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDB025CDED2C54D0F437141937CD956B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D0DE68B2A588745581AA6BE111B1DA2 /* Pods-WAlertViewController_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		58EBA53D3FE46D75F68D5A048CECEB8F /* WAlertViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 358EC8908DA5DCAF5B7F1F56EDB3A2CC /* Build configuration list for PBXNativeTarget "WAlertViewController" */;
+			buildPhases = (
+				92E448937D2F29679CE680CE184A8F03 /* Headers */,
+				CB1334E1E35B239B862F31439D088B7F /* Sources */,
+				B11E29E89C859992248D21198F185D38 /* Frameworks */,
+				1D9A5FBEB941EF3E7D610F41D5237AEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WAlertViewController;
+			productName = WAlertViewController;
+			productReference = F8BE4A9CE648133404B02F77820CFE50 /* WAlertViewController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B883E3553CC7842CF02D79A672916A0D /* Pods-WAlertViewController_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 458B9524E48D06D9A676E38C8EC2C7EB /* Build configuration list for PBXNativeTarget "Pods-WAlertViewController_Tests" */;
+			buildPhases = (
+				FDB025CDED2C54D0F437141937CD956B /* Headers */,
+				2AC571BC284AD48F7B91225507550978 /* Sources */,
+				33624CA931157D0D24E1331BEFD9A8E8 /* Frameworks */,
+				077882160DF690B26FDE1F25600A3C79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33EC63A1DD815E043D3A275DEA84BC89 /* PBXTargetDependency */,
+			);
+			name = "Pods-WAlertViewController_Tests";
+			productName = "Pods-WAlertViewController_Tests";
+			productReference = E38EC9128DBF2DE1531590BD6E7952ED /* Pods_WAlertViewController_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					58EBA53D3FE46D75F68D5A048CECEB8F = {
+						LastSwiftMigration = 1200;
+					};
+					B883E3553CC7842CF02D79A672916A0D = {
+						LastSwiftMigration = 1200;
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = DEFFD9F2B8862F48802BD22C661C3E49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B883E3553CC7842CF02D79A672916A0D /* Pods-WAlertViewController_Tests */,
+				58EBA53D3FE46D75F68D5A048CECEB8F /* WAlertViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		077882160DF690B26FDE1F25600A3C79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D9A5FBEB941EF3E7D610F41D5237AEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2AC571BC284AD48F7B91225507550978 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6B0EF8DE7D121FC178D88B2618B2F34 /* Pods-WAlertViewController_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB1334E1E35B239B862F31439D088B7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E2CCC54EA247A862B09DF55E385DE0B /* WAlertViewController-dummy.m in Sources */,
+				FF679BDC255467AF00354FF4 /* WAlertViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33EC63A1DD815E043D3A275DEA84BC89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WAlertViewController;
+			target = 58EBA53D3FE46D75F68D5A048CECEB8F /* WAlertViewController */;
+			targetProxy = 4412BDC33EA4C5C389D43C184A449E7D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4B2FA6B0BEBACEB39D33FB7211AFEC98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BFC56185562939AA6321CE09F5FB40C /* WAlertViewController.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WAlertViewController/WAlertViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WAlertViewController/WAlertViewController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WAlertViewController/WAlertViewController.modulemap";
+				PRODUCT_MODULE_NAME = WAlertViewController;
+				PRODUCT_NAME = WAlertViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4FDBA282C7502316107EE5193C32FA9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A151E269925BF0AA0D3350B3DC0F6C81 /* WAlertViewController.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WAlertViewController/WAlertViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WAlertViewController/WAlertViewController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WAlertViewController/WAlertViewController.modulemap";
+				PRODUCT_MODULE_NAME = WAlertViewController;
+				PRODUCT_NAME = WAlertViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9517A4EAA3713635DCA3B9F7734477E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A097D9F6E7F6527CC0BC62758257428 /* Pods-WAlertViewController_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WAlertViewController_Tests/Pods-WAlertViewController_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WAlertViewController_Tests/Pods-WAlertViewController_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F9861C79A65989D0B0AEDC8E9F55D242 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9C0BBC181D1207B70844FA0CA09D70B /* Pods-WAlertViewController_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WAlertViewController_Tests/Pods-WAlertViewController_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WAlertViewController_Tests/Pods-WAlertViewController_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		358EC8908DA5DCAF5B7F1F56EDB3A2CC /* Build configuration list for PBXNativeTarget "WAlertViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B2FA6B0BEBACEB39D33FB7211AFEC98 /* Debug */,
+				4FDBA282C7502316107EE5193C32FA9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		458B9524E48D06D9A676E38C8EC2C7EB /* Build configuration list for PBXNativeTarget "Pods-WAlertViewController_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9861C79A65989D0B0AEDC8E9F55D242 /* Debug */,
+				9517A4EAA3713635DCA3B9F7734477E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

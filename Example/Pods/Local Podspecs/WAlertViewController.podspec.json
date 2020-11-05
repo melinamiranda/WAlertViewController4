@@ -1,0 +1,22 @@
+{
+  "name": "WAlertViewController",
+  "version": "0.1.0",
+  "summary": "A short description of WAlertViewController.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/melinamiranda/WAlertViewController",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "melinamiranda": "mmiranda@yopapp.me"
+  },
+  "source": {
+    "git": "https://github.com/melinamiranda/WAlertViewController.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "WAlertViewController/Classes/**/*"
+}

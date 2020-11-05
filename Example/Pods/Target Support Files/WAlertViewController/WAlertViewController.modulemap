@@ -1,0 +1,6 @@
+framework module WAlertViewController {
+  umbrella header "WAlertViewController-umbrella.h"
+
+  export *
+  module * { export * }
+}

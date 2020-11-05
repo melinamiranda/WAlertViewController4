@@ -1,0 +1,16 @@
+PODS:
+  - WAlertViewController (0.1.0)
+
+DEPENDENCIES:
+  - WAlertViewController (from `../`)
+
+EXTERNAL SOURCES:
+  WAlertViewController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WAlertViewController: 16f892cb929d304d56bc501d9d9876256a8c6be6
+
+PODFILE CHECKSUM: 82261251aee3e3b7dba552da12e7cda4171b1baa
+
+COCOAPODS: 1.9.3
