@@ -17,17 +17,20 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = "This is the WAlertViewController pod for wabipay"
+  s.description      = 'This is the WAlertViewController pod for wabipay'
 
   s.homepage         = 'https://github.com/melinamiranda/WAlertViewController'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'melinamiranda' => 'mmiranda@yopapp.me' }
-  s.source           = { :git => 'https://github.com/melinamiranda/WAlertViewController.git', :tag => s.version.to_s }
-  s.ios.deployment_target = '8.0'
+  s.source           = { :git => 'https://github.com/melinamiranda/WAlertViewController.git', :tag => "1.0.0"}
+  s.ios.deployment_target = '10.0'
 
-  s.source_files = 'WAlertViewController/Classes/**/*'
-  
+  s.source_files = 'Classes/**/*'
+  s.swift_version = '5.0'
+  s.platforms = {
+    'ios': '10.0'
+  }
   # s.resource_bundles = {
   #   'WAlertViewController' => ['WAlertViewController/Assets/*.png']
   # }

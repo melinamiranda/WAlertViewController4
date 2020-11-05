@@ -86,7 +86,7 @@ struct WAlert {
     var type: WAlertType
 }
 
-fileprivate let WAlertViewAnimationDuration = TimeInterval(UINavigationController.hideShowBarDuration)
+fileprivate let WAlertViewAnimationDuration = TimeInterval(UINavigationControllerHideShowBarDuration)
 typealias WAlertActionBlock = (_ wAlertView: WAlertViewController ) -> Void
 
 class WAlertViewController: UIViewController, UIGestureRecognizerDelegate, UITextFieldDelegate {
@@ -94,7 +94,7 @@ class WAlertViewController: UIViewController, UIGestureRecognizerDelegate, UITex
     
     @IBOutlet weak var backgroundImageView: UIImageView!
     @IBOutlet weak var closeButton: UIButton!
-    @IBOutlet weak var contentView: RoundedView!
+    @IBOutlet weak var contentView: UIView!
     @IBOutlet weak var errorLabel: UILabel!
     @IBOutlet weak var iconImageView: UIImageView!
     @IBOutlet weak var inputTextField: UITextField!
